@@ -14,16 +14,54 @@
     filter: brightness(0.5);
     z-index: -1;
 }
+
+
 #main-content{
     @include tam;
     position: relative;
-    display: flex;
-    flex-direction: column;
     color: aliceblue;
+}
+#content-main{
+    @include tam;
+    padding-top: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#title-main{
+    font-size: 10rem;
+}
+#des-main{
+    font-size: 3rem;
+    font-weight: 100;
+}
+#button-main{
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 20%;
+    background-color: aliceblue;
 }
 #FloatingActionButton{
     position: fixed;
-    color: brown;
     top: 0;
     right: 0;
+    width: 3rem;
+    height: 0.2rem;
+    display: block;
+    margin-top:0.5rem ;
+    background-color: aliceblue;
+    ::after{
+        display: block;
+        width: 3rem;
+        height: 0.2rem;
+        margin-top: 0.5rem;
+        background-color: aliceblue;
+    }
+    ::before{
+        display: block;
+        width: 3rem;
+        margin-top: 0.5rem;
+        height: 0.2rem;
+        background-color: aliceblue;
+    }
 }
