@@ -1,5 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  border: solid 1px red;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; /* Para evitar el desplazamiento vertical */
 }/*# sourceMappingURL=index.css.map */
