@@ -39,8 +39,13 @@
 #button-main {
   margin-top: 1rem;
   padding: 1rem;
-  border-radius: 20%;
-  background-color: aliceblue;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: aliceblue;
+  font-weight: bold;
+  border-radius: 12%;
+  opacity: 50%;
+  background-color: transparent;
 }
 
 #FloatingActionButton {
@@ -54,6 +59,7 @@
   background-color: aliceblue;
 }
 #FloatingActionButton ::after {
+  position: fixed;
   display: block;
   width: 3rem;
   height: 0.2rem;
@@ -61,6 +67,7 @@
   background-color: aliceblue;
 }
 #FloatingActionButton ::before {
+  position: fixed;
   display: block;
   width: 3rem;
   margin-top: 0.5rem;
